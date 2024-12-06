@@ -1,0 +1,10 @@
+runtime: nodejs18
+env: standard
+
+handlers:
+- url: /predict
+  script: auto
+- url: /predict/histories
+  script: auto
+- url: /uploads
+  static_dir: uploads
